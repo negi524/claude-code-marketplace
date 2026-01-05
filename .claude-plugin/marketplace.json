@@ -1,0 +1,12 @@
+{
+  "name": "claude-code-marketplace",
+  "owner": {
+    "name": "Your Name",
+    "email": "[email protected]"
+  },
+  "metadata": {
+    "description": "個人的なClaude Codeマーケットプレイス - スキルと外部プラグインのコレクション",
+    "version": "1.0.0"
+  },
+  "plugins": []
+}
