@@ -1,0 +1,17 @@
+{
+  "name": "hello-world-mcp",
+  "version": "1.0.0",
+  "description": "シンプルな挨拶MCPサーバー",
+  "type": "mcp",
+  "mcp": {
+    "command": "node",
+    "args": ["server.js"],
+    "cwd": "plugins/hello-world-mcp"
+  },
+  "tools": [
+    {
+      "name": "greet",
+      "description": "指定した名前で挨拶を返す"
+    }
+  ]
+}

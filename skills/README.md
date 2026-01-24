@@ -1,17 +1,13 @@
 # Skills
 
-Claude Code用のカスタムスキル
+Claude Code用のカスタムスキル集
 
 ## 利用可能なスキル
 
-現在登録されているスキルはありません。
+| 名前 | 説明 | カテゴリ |
+|------|------|----------|
+| [hello-world](./hello-world/) | シンプルな挨拶スキル | examples |
 
 ## スキルの追加
 
-```bash
-# skill-creatorで作成
-/skill-creator
-
-# このディレクトリに追加
-cp -r /path/to/created-skill ./your-skill-name
-```
+[CONTRIBUTING.md](../CONTRIBUTING.md) を参照してください。
