@@ -1,9 +1,9 @@
 {
-  "name": "team-marketplace",
+  "name": "my-marketplace",
   "version": "1.0.0",
-  "description": "チーム内プラグインマーケットプレイス",
+  "description": "個人用プラグインマーケットプレイス",
   "owner": {
-    "name": "Your Team",
+    "name": "Your Name",
     "email": "[email protected]"
   },
   "skills": [

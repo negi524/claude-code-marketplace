@@ -1,15 +1,15 @@
-# Team Marketplace
+# Claude Code Marketplace
 
-チーム内で共有するClaude Code用スキル・プラグインのマーケットプレイス
+個人用のClaude Codeスキル・プラグインマーケットプレイス
 
 ## インストール
 
 ```bash
-# プライベートリポジトリから（SSH）
-/plugin marketplace add git@github.com:your-org/claude-code-marketplace.git
+# ローカルディレクトリから
+/plugin marketplace add /path/to/claude-code-marketplace
 
-# プライベートリポジトリから（HTTPS + Token）
-/plugin marketplace add https://github.com/your-org/claude-code-marketplace
+# GitHubリポジトリから
+/plugin marketplace add owner/claude-code-marketplace
 ```
 
 ## ディレクトリ構造
