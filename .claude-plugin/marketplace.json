@@ -1,12 +1,27 @@
 {
-  "name": "claude-code-marketplace",
+  "name": "my-marketplace",
+  "version": "1.0.0",
+  "description": "個人用プラグインマーケットプレイス",
   "owner": {
     "name": "Your Name",
     "email": "[email protected]"
   },
-  "metadata": {
-    "description": "個人的なClaude Codeマーケットプレイス - スキルと外部プラグインのコレクション",
-    "version": "1.0.0"
-  },
-  "plugins": []
+  "skills": [
+    {
+      "name": "hello-world",
+      "version": "1.0.0",
+      "description": "シンプルな挨拶スキル",
+      "path": "skills/hello-world/skill.md",
+      "category": "examples"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "hello-world-mcp",
+      "version": "1.0.0",
+      "description": "シンプルな挨拶プラグイン（MCPサーバー）",
+      "path": "plugins/hello-world-mcp",
+      "category": "examples"
+    }
+  ]
 }
